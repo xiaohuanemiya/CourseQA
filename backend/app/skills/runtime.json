@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "skills": {
+    "course-evidence": {
+      "requirements": ["search_knowledge"],
+      "status": "compatible",
+      "runtime_note": "使用当前应用已发布资料检索；子 agent 为可选协作方式，关闭拆分不影响使用。"
+    },
+    "calculus-verification": {
+      "requirements": ["calculate", "search_knowledge"],
+      "status": "compatible",
+      "runtime_note": "通过受限 calculate 工具核验求导、积分与极限，并结合课程证据检查条件。"
+    },
+    "document-comparison": {
+      "requirements": ["search_knowledge"],
+      "status": "compatible",
+      "runtime_note": "仅检索原问题允许的已发布文档；子 agent 为可选方式，不扩大资料访问范围。"
+    },
+    "sympy": {
+      "requirements": ["calculate", "read_skill_reference"],
+      "status": "limited",
+      "runtime_note": "仅将此 Skill 作为数学方法参考。平台计算工具仅支持求导、积分、极限；不提供方程求解、矩阵运算、任意 Python、shell、依赖安装或代码执行。未执行的示例不能称为工具核验结果。"
+    },
+    "scientific-critical-thinking": {
+      "requirements": ["read_skill_reference", "search_knowledge"],
+      "status": "limited",
+      "runtime_note": "使用科学证据评价与推理方法，只读取已发布课程资料及 Skill 参考文件；不提供外部文献搜索、文件写入、scientific-schematics、OpenRouter 或其他外部示意图服务。"
+    }
+  }
+}

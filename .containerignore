@@ -1,0 +1,14 @@
+.git
+.venv
+**/node_modules
+**/dist
+**/__pycache__
+.env
+.env.*
+.agents
+.codex
+data
+artifacts
+AdvancedMathematicsData*
+.pytest_cache
+.ruff_cache

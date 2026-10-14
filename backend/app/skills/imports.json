@@ -1,0 +1,36 @@
+{
+  "repository": "https://github.com/K-Dense-AI/claude-scientific-skills",
+  "commit": "a1043ef544e3a100c28e70a736b6cf32554d0677",
+  "license": "THIRD_PARTY_LICENSE.md",
+  "packages": [
+    {
+      "name": "sympy",
+      "source_path": "skills/sympy",
+      "files": {
+        "SKILL.md": "bb97087bdddccc845401737ddc7f7a8da1c14ced5e8d40da01271c991ac46e23",
+        "references/advanced-topics.md": "cff0c044c5d7c7f65235f35a7c0fe19e41a42c27393c9aa7f38a31f00ed28e81",
+        "references/code-generation-printing.md": "6a547f4dfd6975762d61d7effd47c9613e16d345e2e1dab89549bfc465f7e404",
+        "references/core-capabilities.md": "2c7d55c127ccd5d4d0792892025979c421573f2662c5cededb6cbcf80ee61888",
+        "references/core_capabilities.md": "69fffa94caf62276112108bbeff5b7dd4281a5b40c07e44eea381f46f00a6011",
+        "references/matrices-linear-algebra.md": "fd64e48e917cf0a71bb0d744e8cfee345a98284256a84fb55793fe4d9783272d",
+        "references/physics-mechanics.md": "0d015cf60861aa5fe1598a76e08d612a758f0c0895bbd1ce1dcbfbc9d4bfaf8c",
+        "references/review.md": "03d4db2d0432cf7ec3a21b2746da7b96809aa7613d17c101d16460f5ec732ab1"
+      }
+    },
+    {
+      "name": "scientific-critical-thinking",
+      "source_path": "skills/scientific-critical-thinking",
+      "files": {
+        "SKILL.md": "563af70571b7dcd6a96bf2e303bedfdcba623b4e9f082d58f04aacbc961fdae4",
+        "references/common_biases.md": "641e8e8e6dfadac1643ea8691b7d3e4e58cf013f134cd42c71301878096a5a39",
+        "references/core_capabilities.md": "0f337b96aa2d7453433a17824368fbd0638b9469d4f90a5fd23f4167c9dee180",
+        "references/evidence_hierarchy.md": "534fbe991ecfb2d162f755004dc528118ce74a78862917c2911595a522d76e6c",
+        "references/experimental_design.md": "eca7e42025393984c07676f3d4bc354d217e5604dc2209c76215d31953a7c74c",
+        "references/logical_fallacies.md": "becfc5bfac7b831dca67cc442cd0fcb42d8eea527a6fc2921c1b704e592ff593",
+        "references/review_sources.md": "71e75106f36f3e69b28959ad1fec503ccdb21b7f5361ab230173e4812accbf62",
+        "references/scientific_method.md": "5aa925b97c7a916f819dafc8b42a9c24e4bd3eb2836594e724f1e7f9ae75ea0f",
+        "references/statistical_pitfalls.md": "0c43204a0a81110cfeb7c982fa4caa89f274bdcebf096e09e5adfccf31241cb9"
+      }
+    }
+  ]
+}

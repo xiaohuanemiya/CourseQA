@@ -1,0 +1,10 @@
+FROM docker.io/library/python:3.12-slim
+WORKDIR /app
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/app/backend
+COPY requirements.lock /app/requirements.lock
+RUN pip install --no-cache-dir --require-hashes -r requirements.lock
+COPY backend /app/backend
+COPY alembic.ini /app/alembic.ini
+COPY pyproject.toml /app/pyproject.toml
+COPY scripts /app/scripts
+CMD ["uvicorn", "app.main:app", "--host", "127.0.0.1", "--port", "8821"]
